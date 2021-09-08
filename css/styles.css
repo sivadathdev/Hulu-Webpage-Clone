@@ -278,7 +278,39 @@ img {
   .live-sports-logos img {
     width: 40px;
   }
-
+  
+  .footer {
+    background: #ebedf2;
+    color: #333;
+  }
+  .footer a {
+    color: #333;
+  }
+  .footer-container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px;
+  }
+  .footer-lists {
+    display: flex;
+    justify-content: space-between;
+  }
+  .list-head {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .divider {
+    width: 100%;
+    height: 3px;
+    border-top: 1px #ccc solid;
+    margin: 30px 0;
+  }
+  .social-icons img {
+    width: 25px;
+    height: 25px;
+    margin-right: 25px;
+  }
 @media(max-width: 1100px) {
   .categories .covers {
     grid-template-columns: 1fr 1fr;
@@ -328,6 +360,12 @@ img {
     top: 30px;
     left: 30px;
     margin-top: 60px;
+  }
+
+  .footer-lists {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
 }
